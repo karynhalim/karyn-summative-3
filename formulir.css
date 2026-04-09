@@ -1,0 +1,49 @@
+body{
+	background:lightblue;
+
+}
+	
+.kotak{
+	max-width:500px;
+	background:white;
+	padding:20px;
+	border-radius:6px;
+	margin: auto;
+}
+label{
+	display:block;
+	margin-top:10px;
+	
+}
+.kotak2{
+	margin-top:20px;
+	padding:10px;
+	background-color:white;
+	border-radius:8px;
+	font-weight:bold;
+	white-space:pre-line;
+}
+button{
+	cursor:pointer;
+	background-color: gray;
+	border:none;
+	padding: 20px;
+	border-radius:8px;
+	
+}
+button:hover{
+	color: white;
+	background-color:black;
+}
+h1,.subjudul{
+	text-align: center;
+	color: gray;
+	
+}
+.smalltext{
+	font-size: 12px;
+	
+}
+.title{
+	color: blue;
+}

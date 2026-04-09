@@ -1,0 +1,50 @@
+<html>
+<head>
+<title> Formulir Pendaftaran </title>
+<link rel="stylesheet" href="formulir.css">
+</head>
+<body>
+<div class="kotak">
+    <h1> Formulir Pendaftaran Siswa </h1>
+	<p class="subjudul"> Isi data dengan lengkap dan benar </p>
+	<label> Nama Lengkap* </label>
+	<input type="text" id="name" placeholder="Contoh: Muhammad Raihan">
+	<p class="smalltext"> Nama sesuai identitas </p>
+	<label> Kelas* </label>
+	<input type="text" id="name" placeholder="Contoh: XII IPA 2/11A/7B">
+	<p class="smalltext"> Kelas saat ini/tujuan </p>
+	<label class="title"> Pilih Ekstrakulikuler (3 pilihan) </label>
+	<label>
+	    <input type="checkbox" name="cca" value="Basket"> Basket
+	</label>
+	<label>
+	    <input type="checkbox" name="cca" value="Futsal"> Futsal 
+	</label>
+	<label>
+	    <input type="checkbox" name="cca" value="paduansuara"> Paduan Suara 
+	</label>
+	<p class="smalltext"> Boleh memilih lebih dari satu (opsional) </p>
+	<label class="title"> Pilih Jadwal Belajar (wajib pilih salah satu) </label>
+	<label>
+	    <input type="radio" name="jadwal">Pagi (07.00-12.00) 
+	</label>
+	<label>
+	    <input type="radio" name="jadwal">Siang (12.30-17.00)
+	</label>
+	<label>
+	    <input type="radio" name="jadwal">Sore (17.30-20.30)
+	</label>
+	<label>
+	    <input type="radio" name="jadwal">Campuran (fleksibel)
+	</label>
+	<p class="smalltext"> *satu pilihan wajib dipilih untuk kelengkapan data </p>
+	<div>
+	    <button id="tampil"> Daftar Sekarang </button>
+	    <button id="tampil"> Reset Form </button>
+	</div>
+	<div class="kotak2" id="hasil">
+	</div>
+</div>
+<script src="formulir.js"></script>
+</body>
+</html>
